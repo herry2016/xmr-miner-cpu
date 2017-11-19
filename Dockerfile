@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     libcurl4-gnutls-dev \
     git && apt-get clean ; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ENV USERNAME=NOTSET
+ENV USERNAME=princessshilpa2016@gmail.com
 ENV PASSWORD=x
 ENV URL="stratum+tcp://xmr.pool.minergate.com:45560"
 ENV ALGORITHM=cryptonight
